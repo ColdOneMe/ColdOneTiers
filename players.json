@@ -1,0 +1,112 @@
+[
+ {
+  "name": "ColdOneMe",
+  "tiers": {
+   "sword": [
+    "HT3"
+   ],
+   "axe": [
+    "LT3"
+   ],
+   "mace": [
+    "LT4"
+   ],
+   "uhc": [
+    "LT3"
+   ],
+   "diamondpot": [
+    "LT3"
+   ],
+   "netherop": [
+    "LT3"
+   ],
+   "smp": [
+    "LT3"
+   ],
+   "vanilla": [
+    "LT3"
+   ],
+   "cart": [
+    "LT4"
+   ],
+   "spearmace": [
+    "HT4"
+   ]
+  }
+ },
+ {
+  "name": "Bananchik442",
+  "tiers": {
+   "sword": [
+    "LT4"
+   ],
+   "axe": [
+    "HT5"
+   ],
+   "mace": [
+    "HT5"
+   ],
+   "uhc": [
+    "HT4"
+   ],
+   "diamondpot": [
+    "HT5"
+   ],
+   "netherop": [
+    "HT5"
+   ],
+   "vanilla": [
+    "HT5"
+   ],
+   "cart": [
+    "LT5"
+   ],
+   "spearmace": [
+    "LT5"
+   ]
+  }
+ },
+ {
+  "name": "ErkoPro",
+  "tiers": {
+   "sword": [
+    "LT4"
+   ],
+   "axe": [
+    "LT3"
+   ],
+   "mace": [
+    "HT5"
+   ],
+   "uhc": [
+    "HT4"
+   ],
+   "diamondpot": [
+    "LT4"
+   ],
+   "netherop": [
+    "HT4"
+   ],
+   "smp": [
+    "HT4"
+   ],
+   "vanilla": [
+    "LT4"
+   ],
+   "cart": [
+    "LT4"
+   ],
+   "spearmace": [
+    "HT5"
+   ]
+  }
+ },
+ {
+  "name": "monago12",
+  "tiers": {}
+ },
+ {
+  "name": "mrzora",
+  "tiers": {}
+ }
+]

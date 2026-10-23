@@ -1,2 +1,26 @@
-# ColdOneTiers
-This is a ColdOne Tiers. minecraft pvp tier list..this is private.. Ty for u see it
+# ColdOneTiers Tagger (Fabric, Minecraft 1.21.11)
+
+Показывает тир игрока из твоего тир-листа рядом с ником: **[значок режима] HT3 | Ник**
+(над головой и в списке игроков на Tab). Значок получают **только игроки, которые есть на сайте**.
+
+## Как получить .jar (без установки Java)
+1. Создай аккаунт на github.com и новый репозиторий (Public или Private).
+2. Загрузи в него ВСЕ файлы из этой папки (Add file → Upload files). Папка `.github` тоже должна попасть.
+3. Открой вкладку **Actions** → дождись зелёной галочки (≈3–5 минут).
+4. Открой последний запуск → внизу **Artifacts → ColdOneTiers-mod** → скачай, внутри `coldonetiers-1.0.0.jar`.
+5. Положи jar в `.minecraft/mods`, туда же **Fabric API** (для 1.21.11). По желанию — **Mod Menu**.
+
+(С Java 21 на компьютере: `./gradlew build`, jar будет в `build/libs/`.)
+
+## Настройки
+- Mod Menu → ColdOneTiers → шестерёнка, либо команда в игре `/coldtiers`.
+- **Режим**: Лучший тир игрока / Sword / Axe / Mace / UHC / Diamond Pot / Nether Pot / SMP / Vanilla / Cart / Spear Mace.
+  Если у игрока нет тира в выбранном режиме — значок не показывается.
+- Над головой / в Tab / текст тира (HT3) — включаются отдельно.
+- **Ссылка на сайт**: вставь адрес страницы твоего тир-листа (мод сам читает список PLAYERS из страницы)
+  или адрес JSON-файла. Данные обновляются каждые 15 минут и по кнопке «Обновить» (`/coldtiers reload`).
+  Без ссылки работает встроенный список игроков (снимок сайта на момент создания мода).
+
+## Формат JSON (если не хочешь отдавать страницу)
+`[{"name":"ColdOneMe","tiers":{"sword":["HT3"],"mace":["LT4"]}}]`
+Ключи режимов: sword, axe, mace, uhc, diamondpot, netherop, smp, vanilla, cart, spearmace.

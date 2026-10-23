@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "id": "coldonetiers",
+  "version": "${version}",
+  "name": "ColdOneTiers Tagger",
+  "description": "Показывает тиры игроков из тир-листа ColdOneTiers рядом с ником (иконка режима + HT3/LT3).",
+  "authors": ["ColdOneTiers"],
+  "license": "MIT",
+  "icon": "assets/coldonetiers/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "client": ["com.coldonetiers.ColdOneTiersClient"],
+    "modmenu": ["com.coldonetiers.ModMenuIntegration"]
+  },
+  "mixins": ["coldonetiers.mixins.json"],
+  "depends": {
+    "fabricloader": ">=0.18.1",
+    "minecraft": "~1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
